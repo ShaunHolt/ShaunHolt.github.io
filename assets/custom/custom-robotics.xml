@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dialog height="100%" width="100%">
+    <tabview width="100%" height="100%" >
+        <hbox text="Raspberry Pi" width="100%" height="100%">
+        </hbox>
+        <vbox text="Arduino" />
+        <vbox text="Sensors" />
+        <vbox text="Visual ML" />
+    </tabview>
+</dialog>

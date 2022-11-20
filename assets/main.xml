@@ -1,0 +1,51 @@
+<box>
+
+
+    <absolute id="box1" width="400" height="400" style="border: 0px solid #ababab" >
+
+        <button text="Videos" id="customNonModalDialogButtonVideos" styleName="styled-button" style="background-opacity: .1" left="525" top="25" />
+        <button text="Social" id="customNonModalDialogButtonSocial" styleName="styled-button" style="background-opacity: .1" left="630" top="25" />
+        <button text="Games" id="customNonModalDialogButtonSensors" styleName="styled-button" style="background-opacity: .1" left="730" top="25" />
+        <button text="Robotics" id="customNonModalDialogButtonRobotics" styleName="styled-button" style="background-opacity: .1" left="845" top="25" />
+        <button text="Toolbox" id="customNonModalDialogButtonToolbox" styleName="styled-button" style="background-opacity: .1" left="965" top="25" />
+        <button text="Guides" id="customNonModalDialogButtonGuides" styleName="styled-button" style="background-opacity: .1" left="1077" top="25" />
+        <button text="About" id="customNonModalDialogButtonAbout" styleName="styled-button" style="background-opacity: .1" left="1187" top="25" />
+
+    <!-- css styled -->
+    <box width="100%" height="1" style="background-color: #d9d9d9;" />
+        <style>
+            .styled-button {
+                background: #79bbff #378de5;
+                border: 3px solid #337bc4;
+                border-radius:10px;
+                padding:10px 25px;
+                font-size: 16px;
+                color: white;
+                filter: drop-shadow(1, 45, #000000, 0.2, 0, 0, 0, 3, false);
+
+            }
+            
+            .styled-button:hover {
+                background: #add6ff #66a8eb;
+            }
+            
+            .styled-button:down {
+                background: #47a3ff #1b75d0;
+                border-color: #28619a;
+            }
+
+        </style>
+
+        <box left="160" top="200" width="100%" height="100%" style="background-color: black;border:0px solid blue;background-opacity: .5; border-radius:25px" />
+        <box left="210" top="250" width="75%" height="75%" style="background-color: white;border:0px solid green;background-opacity: .1; border-radius:25px" />
+
+		<label text="Designed with HaxeUI" style="font-size: 18px; color:white" left="1540" top="1"/>
+        <image resource="haxeui-core/styles/default/haxeui.png" width="50" height="50" style="border:0px solid #ababab" left="1630" top="25" />
+        <image resource="assets/haxelogo.svg" width="200" height="200" style="border:0px solid #ababab" left="150" top="1" />
+        <image resource="assets/profile.jpg" width="300" height="300" style="border:0px solid #ababab; border-radius:25px" left="330" top="310" />
+
+        <image resource="assets/techguytransp.png" style="border:0px solid #000" imageScale="1" left="700" top="200" />
+
+    </absolute>
+
+</box>
