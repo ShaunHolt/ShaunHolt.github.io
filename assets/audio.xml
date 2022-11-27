@@ -1,0 +1,28 @@
+<vbox style="padding: 15px;">
+    <hbox>
+        <label text="Frame Size:" />
+        <slider min="200" max="500" pos="300" onchange="theFrame.width = this.pos" />
+        <slider min="200" max="500" pos="200" onchange="theFrame.height = this.pos" />
+    </hbox>
+    <grid columns="3">
+        <button text="Button" />
+        <button text="Button" width="100%" />
+        <button text="Button" />
+        
+        <button text="Button" height="100%" />
+        <frame id="theFrameaudio" text="Test Audio" width="300" height="200">
+            <vbox width="100%" height="100%">
+                <audio id="theAudio" width="100%" height="100%" file="https://www.w3schools.com/html/mov_bbb.mp4" />
+                <hbox width="100%">
+                    <button width="100%" text="Play" onclick="theAudio.play();" />
+                    <button width="100%" text="Pause" onclick="theAudio.pause();" />
+                </hbox>
+            </vbox>    
+        </frame>
+        <button text="Button" height="100%" />
+        
+        <button text="Button" />
+        <button text="Button" width="100%" />
+        <button text="Button" />
+    </grid>
+</vbox>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dialog height="500">
+    <tabview width="100%" height="100%">
+<vbox text="Camera" style="padding: 15px;">
+    <hbox>
+        <label text="Frame Size:" />
+        <slider min="200" max="500" pos="400" onchange="theFrame.width = this.pos" />
+        <slider min="200" max="500" pos="300" onchange="theFrame.height = this.pos" />
+    </hbox>
+    <grid columns="1">
+        <frame id="theFrame" text="Camera 1" width="300" height="300">
+            <vbox width="100%" height="100%">
+<!--                <video id="theVideo" width="100%" height="100%" file="https://www.w3schools.com/html/mov_bbb.mp4" />
+-->                <hbox width="100%">
+<!--                    <button width="100%" text="Play" onclick="theVideo.play();" />
+                    <button width="100%" text="Pause" onclick="theVideo.pause();" />
+-->                </hbox>
+            </vbox>    
+        </frame>
+    </grid>
+    
+    
+</vbox>
+
+<vbox text="Night Vision" style="padding: 15px;">
+    <hbox>
+        <label text="Frame Size:" />
+        <slider min="200" max="500" pos="400" onchange="theFrame2.width = this.pos" />
+        <slider min="200" max="500" pos="300" onchange="theFrame2.height = this.pos" />
+    </hbox>
+    <grid columns="1">
+        <frame id="theFrame2" text="Camera 2 - Night Vision" width="300" height="300">
+            <vbox width="100%" height="100%">
+<!--                <video id="theVideo" width="100%" height="100%" file="https://www.w3schools.com/html/mov_bbb.mp4" />
+-->                <hbox width="100%">
+<!--                    <button width="100%" text="Play" onclick="theVideo.play();" />
+                    <button width="100%" text="Pause" onclick="theVideo.pause();" />
+-->                </hbox>
+            </vbox>    
+        </frame>
+    </grid>
+    
+    
+</vbox>
+
+
+    </tabview>
+</dialog>

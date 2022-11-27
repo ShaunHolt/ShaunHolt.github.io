@@ -1,0 +1,167 @@
+.header {
+	background-color:transparent;
+
+    padding: 5px;
+}
+
+.footer {
+    background-color:transparent;
+    padding: 5px;
+}
+
+.header label {
+    font-size: 3rem;
+    color: black;
+}
+
+.footer label {
+    font-size: 18px;
+    color: white;
+}
+
+#ttgwolflogo {
+     resource: 'assets/img/techguytransp.png';
+}
+
+#wolf {
+background-size: 100%;
+}
+
+#logo {
+    resource: "";
+}
+
+#haxeuilogo {
+    resource: 'assets/img/haxeui_logo_small.png';
+}
+
+#haxelogo {
+    resource: 'assets/img/haxe-logo-horizontal-on-dark.svg';
+}
+
+
+.boxblack {
+
+}
+
+.boxwhite {
+index: 2;
+}
+
+
+.styled-button {
+    background: #79bbff #378de5;
+    border: 3px solid #337bc4;
+    border-radius:25px;
+    padding:10px 25px;
+    font-size: 16px;
+    color: white;
+    opacity: 1;
+    position:absolute;
+    filter: drop-shadow(1, 45, #000000, 0.2, 0, 0, 0, 3, false);
+    }
+            
+.styled-button:hover {
+    background: #add6ff #66a8eb;
+    opacity: 1;
+    }
+            
+.styled-button:down {
+    background: #47a3ff #1b75d0;
+    border-color: #28619a;
+    opacity: 1;
+    }
+
+.MySideBar1 {
+    background-color: transparent;
+    border: 0px;
+}
+
+
+#small {
+    hidden: false;
+}
+
+#medium {
+    hidden: true;
+}
+
+#large {
+    hidden: true;
+}
+
+#html5, #hxwidgets {
+    hidden: true;
+}
+
+@media (min-width: 500px) {
+    .menu {
+        width: 25%;
+    }
+
+    .content {
+        width: 75%;
+    }    
+    
+    #logo {
+        resource: "haxeui-core/styles/default/haxeui_small.png";
+    }
+    
+    #small {
+        hidden: true;
+    }
+
+    #medium {
+        hidden: false;
+    }
+
+    #large {
+        hidden: true;
+    }
+}
+
+@media (min-width: 800px) {
+    .menu {
+        width: 25%;
+    }
+
+    .sidebar {
+        width: 25%;
+    }
+
+    .content {
+        width: 50%;
+    }    
+    
+    #small {
+        hidden: true;
+    }
+
+    #medium {
+        hidden: true;
+    }
+
+    #large {
+        hidden: false;
+    }
+}
+
+@media (backend: html5) {
+    #html5 {
+        hidden: false;
+    }
+    
+    #hxwidgets {
+        hidden: true;
+    }
+}
+
+@media (backend: hxwidgets) {
+    #html5 {
+        hidden: true;
+    }
+    
+    #hxwidgets {
+        hidden: false;
+    }
+}

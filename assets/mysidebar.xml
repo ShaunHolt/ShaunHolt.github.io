@@ -1,0 +1,44 @@
+<box height="100%" width="100%" style="background-opacity: 0.0; border-opacity: 0; border: 0px"  >
+    <vbox height="100%" width="100%" style="background-opacity: 0.0; border-opacity: 0; border: 0px" >
+
+        <style>
+            .styled-button {
+                background: #79bbff #378de5;
+                border: 3px solid #337bc4;
+                border-radius:25px;
+                padding:10px 25px;
+                font-size: 16px;
+                color: white;
+                opacity: 1;
+                position:absolute;
+                filter: drop-shadow(1, 45, #000000, 0.2, 0, 0, 0, 3, false);
+            }
+            
+            .styled-button:hover {
+                background: #add6ff #66a8eb;
+                opacity: 1;
+            }
+            
+            .styled-button:down {
+                background: #47a3ff #1b75d0;
+                border-color: #28619a;
+                opacity: 1;
+            }
+
+            .MySideBar1 {
+                background-color: transparent;
+                border-color: transparent;
+                border: 0px;
+            }
+        </style>
+
+        <button id="closeSideBar" text="Close" styleName="styled-button" verticalAlign="bottom" horizontalAlign="left"/>
+
+        <button id="showLearnPanel" text="Learning Center" icon="" styleName="styled-button" horizontalAlign="left"/>
+        <button id="showUtilsPanel" text="Utilities" icon="" styleName="styled-button" horizontalAlign="left"/>
+        <button id="showUtilsPanel" text="Games" icon="" styleName="styled-button" horizontalAlign="left"/>
+        <button id="showAboutPanel" text="About" icon="" styleName="styled-button" horizontalAlign="left"/>
+
+        <button id="validatingDialog" text="Sign In" styleName="styled-button" horizontalAlign="left"/>
+    </vbox>
+</box>

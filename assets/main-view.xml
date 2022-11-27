@@ -1,0 +1,22 @@
+<scrollview width="100%" height="100%" contentWidth="100%" style="border-size:0; background-color: transparent; background-opacity: 0" backgroundColor="transparent" >
+    <vbox id="main" width="100%" style="padding: 5px; background-opacity: 0; border-size:0" backgroundColor="transparent" >
+        <style source="main.css" />
+        
+        
+        <box styleName="header" width="100%" backgroundColor="transparent" style="background-opacity: 0">
+            <button id="showSideBar1" text="Menu" horizontalAlign="right" verticalAlign="center" styleName="styled-button" />
+         </box>
+        
+    <absolute id="box1" width="100%" height="800px" style="border: 0px solid $normal-border-color; position: relative">
+        <box styleName="boxblack" left="250%" top="25" width="75%" height="75%" style="background-color: black;border:0px solid blue; background-opacity: .5; border-radius:25px" />
+        <box styleName="boxwhite" left="725%" top="50" width="25%" height="60%" style="background-color: white;border:0px solid white; background-opacity: .05; border-radius:250px" />
+        <box id="wolf" left="500%" top="200"  width="50%" height="50%" style="border:0px solid transparent;background-opacity: .3" backgroundImage="assets/img/techguytransp.png" />
+    </absolute>
+
+        
+        <hbox styleName="footer" width="100%" >
+            <label text="Shaun Holt - 2022" width="100%" verticalAlign="center" />
+			<label text="Coded in Haxe and Designed with HaxeUI" verticalAlign="top" horizontalAlign="right" />
+        </hbox>
+    </vbox>
+</scrollview>    
