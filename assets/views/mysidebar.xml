@@ -1,5 +1,5 @@
-<box style="background-opacity: 0; border: 0px">
-    <vbox style="background-opacity: 0; border: 0px" verticalAlign="center">
+<box style="background-opacity: 0; border: 0px; border-opacity: 0;">
+    <vbox style="background-opacity: 0; border: 0px;"  height="100%" width="100%">
         <style>
             .styled-button {
                 background: #79bbff #378de5;
@@ -25,20 +25,22 @@
             }
 
             .MySideBar1 {
-                background-color: transparent;
-                border-color: transparent;
+                background-color: blue;
+                background-opacity: 0;
+                border-opacity: 0;
+                border-color: blue;
                 border: 0px;
             }
         </style>
 
-        <button id="closeSideBar" text="Close" styleName="styled-button" verticalAlign="bottom" horizontalAlign="left"/>
+        <button id="closeSideBar" text="Close" styleName="styled-button" horizontalAlign="center"/>
 
-        <button id="showLearnPanel" text="Learning Center" icon="" styleName="styled-button" horizontalAlign="left"/>
-        <button id="showUtilsPanel" text="Utilities" icon="" styleName="styled-button" horizontalAlign="left"/>
-        <button id="showUtilsPanel" text="Game Center" icon="" styleName="styled-button" horizontalAlign="left"/>
-        <button id="showUtilsPanel" text="Creativity Center" icon="" styleName="styled-button" horizontalAlign="left"/>
-        <button id="showAboutPanel" text="About" icon="" styleName="styled-button" horizontalAlign="left"/>
+        <button id="showLearnPanel" text="Learning Center" icon="" styleName="styled-button" horizontalAlign="center"/>
+        <button id="showUtilsPanel" text="Utilities" icon="" styleName="styled-button" horizontalAlign="center"/>
+        <button id="showUtilsPanel" text="Game Center" icon="" styleName="styled-button" horizontalAlign="center"/>
+        <button id="showUtilsPanel" text="Creativity Center" icon="" styleName="styled-button" horizontalAlign="center"/>
+        <button id="showAboutPanel" text="About" icon="" styleName="styled-button" horizontalAlign="center"/>
 
-        <button id="validatingDialog" text="Sign In" styleName="styled-button" horizontalAlign="left"/>
+        <button id="validatingDialog" text="Sign In" styleName="styled-button" horizontalAlign="center"/>
     </vbox>
 </box>

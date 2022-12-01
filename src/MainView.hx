@@ -28,7 +28,7 @@ class MainView extends VBox {
             sidebar = new MySideBar1();
             sidebar.position = "left";
             sidebar.method = "float";
-            sidebar.modal = true;
+            sidebar.modal = false;
             sidebar.show();
     }
 }
