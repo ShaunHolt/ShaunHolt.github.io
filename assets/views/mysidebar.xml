@@ -1,6 +1,5 @@
-<box height="100%" width="100%" style="background-opacity: 0.0; border-opacity: 0; border: 0px"  >
-    <vbox height="100%" width="100%" style="background-opacity: 0.0; border-opacity: 0; border: 0px" >
-
+<box style="background-opacity: 0; border: 0px">
+    <vbox style="background-opacity: 0; border: 0px" verticalAlign="center">
         <style>
             .styled-button {
                 background: #79bbff #378de5;

@@ -6,7 +6,6 @@ import js.Browser;
 import js.html.SourceElement;
 import js.html.VideoElement;
 
-
 class Video extends Box {
     private var _video:VideoElement = null;
     private var _source:SourceElement = null;
@@ -14,7 +13,9 @@ class Video extends Box {
     private override function onReady() {
         super.onReady();
         _video = Browser.document.createVideoElement();
-        _video.style.objectFit = "fill";
+        _video.style.objectFit = "cover";
+          _video.autoplay = true;
+          _video.loop = false;
         element.appendChild(_video);
         invalidateComponentLayout();
         if (_file != null && _source == null) {
