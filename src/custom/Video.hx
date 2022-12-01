@@ -16,6 +16,8 @@ class Video extends Box {
         _video.style.objectFit = "cover";
           _video.autoplay = true;
           _video.loop = false;
+          _video.controls = true;
+          _video.poster = "assets/img/thattechguylogo.png";
         element.appendChild(_video);
         invalidateComponentLayout();
         if (_file != null && _source == null) {
