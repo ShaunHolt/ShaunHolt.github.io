@@ -36,7 +36,8 @@
 
         <button id="showLearnPanel" text="Learning Center" icon="" styleName="styled-button" horizontalAlign="left"/>
         <button id="showUtilsPanel" text="Utilities" icon="" styleName="styled-button" horizontalAlign="left"/>
-        <button id="showUtilsPanel" text="Games" icon="" styleName="styled-button" horizontalAlign="left"/>
+        <button id="showUtilsPanel" text="Game Center" icon="" styleName="styled-button" horizontalAlign="left"/>
+        <button id="showUtilsPanel" text="Creativity Center" icon="" styleName="styled-button" horizontalAlign="left"/>
         <button id="showAboutPanel" text="About" icon="" styleName="styled-button" horizontalAlign="left"/>
 
         <button id="validatingDialog" text="Sign In" styleName="styled-button" horizontalAlign="left"/>
