@@ -3,9 +3,6 @@
         <resource path="assets" prefix="assets" />
     </resources>
     <components>
-    	<component class="custom.Video" alias="video" />
-        <!-- alternative method for entire package (without aliases)
-        <component package="custom" />
-        -->
+        <component package="windows" />
     </components>
 </module>
