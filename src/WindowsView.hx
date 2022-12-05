@@ -1,10 +1,9 @@
 package;
 
 import windows.InlineDialogsWindow;
-import windows.SimpleGraphWindow;
 import windows.CodeEditorWindow;
+import windows.GameCenterWindow;
 import haxe.ui.containers.windows.WindowManager;
-import windows.SimpleFormWindow;
 import haxe.ui.events.MouseEvent;
 import haxe.ui.containers.VBox;
 import haxe.ui.containers.SideBar;
@@ -45,6 +44,7 @@ class MySideBar1 extends SideBar {
         width = 250;
         percentHeight = 100;
     }
+
     @:bind(validatingDialog, MouseEvent.CLICK)
     private function onValidatingDialog(e) {
         var dialog = new SimpleLoginDialog();
@@ -54,21 +54,6 @@ class MySideBar1 extends SideBar {
         dialog.showDialog();
     }
 
-    @:bind(openSimpleFormLink, MouseEvent.CLICK)
-    private function onOpenSimpleForm(_) {
-        var window = new SimpleFormWindow();
-        window.left = 10;
-        window.top = 80;
-        WindowManager.instance.addWindow(window);
-    }
-
-    @:bind(openSimpleGraphLink, MouseEvent.CLICK)
-    private function onOpenSimpleGraph(_) {
-        var window = new SimpleGraphWindow();
-        window.left = 200;
-        window.top = 100;
-        WindowManager.instance.addWindow(window);
-    }
 
     @:bind(openCodeEditorLink, MouseEvent.CLICK)
     private function onOpenCodeEditor(_) {
@@ -78,13 +63,13 @@ class MySideBar1 extends SideBar {
         WindowManager.instance.addWindow(window);
     }
 
-
-
-    @:bind(openInlineDialogsLink, MouseEvent.CLICK)
-    private function onOpenInlineDialogs(_) {
-        var window = new InlineDialogsWindow();
-        window.left = 300;
-        window.top = 10;
+    @:bind(openGameCenterLink, MouseEvent.CLICK)
+    private function onOpenGameCenter(_) {
+        var window = new GameCenterWindow();
+        window.left = 200;
+        window.top = 100;
         WindowManager.instance.addWindow(window);
     }
+
+
 }
