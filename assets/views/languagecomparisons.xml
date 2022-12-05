@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+
+<dialog height="75%" width="75%" title="Language Comparisons" >
+
+    <tabview  height="100%" width="100%">
+        <hbox height="100%" width="100%" text="JS to Haxe" icon="assets/img/icon-javascript.png">
+            <vbox height="100%" width="100%">
+    <vbox height="100%" width="100%">
+        <dropdown width="150" dropdownWidth="200" searchable="true" searchPrompt="Filter">
+            <data>
+                <item text="Array-Values" />
+                <item text="Array-Sort" />
+                <item text="Array-Some" />
+                <item text="Array-Splice" />
+                <item text="Array-ToString" />
+                <item text="Array-Pop" />
+                <item text="Array-Push" />
+                <item text="Array-Shift" />
+                <item text="Array-Slice" />
+            </data>
+        </dropdown>
+        <vbox height="100%" width="100%">
+            <splitter direction="horizontal" width="100%" height="100%" verticalAlign="center" horizontalAlign="center">
+
+            <splitter direction="vertical" width="100%" height="100%">
+                <hbox width="100%" height="50%" style="background-color: #AAFFAA;background-opacity:.3;clip:false;">
+                    <label text="Javascript code example for Array-Values in this box" verticalAlign="top" horizontalAlign="center" />
+                </hbox>
+                <hbox width="100%" height="50%" style="background-color: #AAAAFF;background-opacity:.3;clip:false;">
+                    <label text="Haxe code example for Array-Values in this box" verticalAlign="top" horizontalAlign="center" />
+                </hbox>
+            </splitter>
+
+
+            </splitter>     
+        </vbox>
+
+    </vbox>
+
+            </vbox>    
+        </hbox> 
+        <box text="C++ to Haxe" icon="assets/img/icon-c++.png"/>
+        <box text="Python to Haxe" icon="assets/img/icon-python.png"/>
+        <box text="PHP to Haxe" icon="assets/img/icon-php.png"/>
+        <box text="C# to Haxe" icon="assets/img/icon-c#.png"/>
+
+
+    </tabview>
+</dialog>

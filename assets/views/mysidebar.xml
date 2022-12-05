@@ -35,7 +35,7 @@
 
         <button id="closeSideBar" text="Close" styleName="styled-button" horizontalAlign="center"/>
 
-        <button id="showLearnPanel" text="Learning Center" icon="" styleName="styled-button" horizontalAlign="center" width="175"/>
+        <button id="openLearningCenterLink" text="Learning Center" icon="" styleName="styled-button" horizontalAlign="center" width="175"/>
         <button id="showUtilsPanel" text="Utilities" icon="" styleName="styled-button" horizontalAlign="center" width="175"/>
         <button id="openGameCenterLink" text="Game Center" icon="" styleName="styled-button" horizontalAlign="center" width="175"/>
         <button id="showUtilsPanel" text="Creativity Center" icon="" styleName="styled-button" horizontalAlign="center" width="175"/>
