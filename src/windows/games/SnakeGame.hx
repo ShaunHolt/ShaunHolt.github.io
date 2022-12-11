@@ -1,4 +1,4 @@
-package windows.games;
+package windows;
 
 import haxe.ui.containers.windows.Window;
 import haxe.ui.containers.Box;
@@ -9,6 +9,8 @@ import js.html.HTMLDocument;
 import js.html.CanvasRenderingContext2D;
 import js.html.CanvasElement;
 import js.html.Node;
+import haxe.ui.container.windows.WindowManager;
+import haxe.ui.container.windows.Window;
 
 typedef Point = { x: Int, y: Int };
 
@@ -16,7 +18,7 @@ typedef Point = { x: Int, y: Int };
 
 
 @:build(haxe.ui.macros.ComponentMacros.build("assets/views/snakegame.xml"))
-class SnakeGame extends Window {
+class SnakeGame extends Window{
 
     static function main() { new SnakeGame(); }
 	var px = 10;

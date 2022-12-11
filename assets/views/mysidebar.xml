@@ -36,11 +36,12 @@
         <button id="closeSideBar" text="Close" styleName="styled-button" horizontalAlign="center"/>
 
         <button id="openLearningCenterLink" text="Learning Center" icon="" styleName="styled-button" horizontalAlign="center" width="175"/>
-        <button id="showUtilsPanel" text="Utilities" icon="" styleName="styled-button" horizontalAlign="center" width="175"/>
+        <button id="openUtilitiesLink" text="Utilities" icon="" styleName="styled-button" horizontalAlign="center" width="175"/>
         <button id="openGameCenterLink" text="Game Center" icon="" styleName="styled-button" horizontalAlign="center" width="175"/>
-        <button id="showUtilsPanel" text="Creativity Center" icon="" styleName="styled-button" horizontalAlign="center" width="175"/>
+        <button id="openCreativityCenterLink" text="Creativity Center" icon="" styleName="styled-button" horizontalAlign="center" width="175"/>
         <button id="openCodeEditorLink" text="Code Editor" styleName="styled-button" horizontalAlign="center" width="175"/>
         <button id="openImageEditorLink" text="Image Editor" styleName="styled-button" horizontalAlign="center" width="175"/>
+        <button id="openTextEditorLink" text="Text Editor" styleName="styled-button" horizontalAlign="center" width="175" />
 
         <button id="showAboutPanel" text="About" icon="" styleName="styled-button" horizontalAlign="center" width="175"/>
 

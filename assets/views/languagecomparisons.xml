@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
 
-<dialog height="75%" width="75%" title="Language Comparisons" >
+<window height="700" width="500" title="Language Comparisons" >
 
     <tabview  height="100%" width="100%">
         <hbox height="100%" width="100%" text="JS to Haxe" icon="assets/img/icon-javascript.png">
@@ -47,4 +47,4 @@
 
 
     </tabview>
-</dialog>
+</window>

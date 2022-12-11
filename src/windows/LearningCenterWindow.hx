@@ -8,6 +8,8 @@ import haxe.ui.containers.dialogs.Dialogs;
 import haxe.ui.containers.dialogs.MessageBox.MessageBoxType;
 import haxe.ui.events.MouseEvent;
 import haxe.ui.containers.VBox;
+import haxe.ui.containers.windows.WindowManager;
+
 
 using haxe.ui.animation.AnimationTools;
 
@@ -15,24 +17,28 @@ using haxe.ui.animation.AnimationTools;
 class LearningCenterWindow extends Window {
     public function new() {
         super();
+
     }
     
     @:bind(collapsibleDialog, MouseEvent.CLICK)
     private function onCollapsibleDialog(e) {
-        var dialog = new MyCustomCollapsibleDialog();
-        dialog.onDialogClosed = function(e:DialogEvent) {
-            trace(e.button);
+        var window = new LanguageComparisonWindow();
+        window.left = 200;
+        window.top = 100;
+        WindowManager.instance.addWindow(window);
         }
-        dialog.showDialog(false);
-    }
+//    }
     
+
+
+
+
 }
 
 
 @:build(haxe.ui.macros.ComponentMacros.build("assets/views/languagecomparisons.xml"))
-class MyCustomCollapsibleDialog extends CollapsibleDialog {
+class LanguageComparisonWindow extends Window {
     public function new() {
         super();
-        buttons = DialogButton.CANCEL;
     }
 }

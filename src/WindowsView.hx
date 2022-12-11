@@ -4,6 +4,9 @@ import windows.InlineDialogsWindow;
 import windows.CodeEditorWindow;
 import windows.GameCenterWindow;
 import windows.LearningCenterWindow;
+import windows.CreativityWindow;
+import windows.UtilitiesWindow;
+import windows.TextEditorWindow;
 import haxe.ui.containers.windows.WindowManager;
 import haxe.ui.events.MouseEvent;
 import haxe.ui.containers.VBox;
@@ -75,6 +78,30 @@ class MySideBar1 extends SideBar {
     @:bind(openLearningCenterLink, MouseEvent.CLICK)
     private function onOpenLearningCenter(_) {
         var window = new LearningCenterWindow();
+        window.left = 200;
+        window.top = 100;
+        WindowManager.instance.addWindow(window);
+    }
+
+    @:bind(openTextEditorLink, MouseEvent.CLICK)
+    private function onOpenTextEditor(_) {
+        var window = new TextEditorWindow();
+        window.left = 200;
+        window.top = 100;
+        WindowManager.instance.addWindow(window);
+    }
+
+    @:bind(openUtilitiesLink, MouseEvent.CLICK)
+    private function onOpenUtilitiesWindow(_) {
+        var window = new UtilitiesWindow();
+        window.left = 200;
+        window.top = 100;
+        WindowManager.instance.addWindow(window);
+    }
+
+    @:bind(openCreativityCenterLink, MouseEvent.CLICK)
+    private function onOpenCreativityWindow(_) {
+        var window = new CreativityWindow();
         window.left = 200;
         window.top = 100;
         WindowManager.instance.addWindow(window);

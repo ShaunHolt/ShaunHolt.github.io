@@ -6,6 +6,7 @@
         <button id="collapsibleDialog" text="Language Comparisons" />
         <button id="haxecourse" text="Haxe Guide" width="100%" />
         <button id="haxeuicourse" text="HaxeUI Guide" width="100%" />
+        <button id="testTest" text="HaxeUI Test" width="100%" />
     </vbox>
     </card>    
 
