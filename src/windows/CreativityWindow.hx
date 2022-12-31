@@ -9,3 +9,5 @@ class CreativityWindow extends Window {
         super();
     }
 }
+
+

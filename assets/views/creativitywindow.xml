@@ -1,7 +1,7 @@
-<window width="700" height="400" title="Creativity Center">
+<window width="700" height="700" title="Creativity Center">
     <vbox style="border: 1px solid $normal-border-color;padding-top:1px;padding-bottom:1px;padding-right: 1px;" width="100%" height="100%">
 
-        <button-bar width="100%" styleName="top-menu" selectedIndex="0" onchange="stack3.selectedIndex = this.selectedIndex">
+        <button-bar width="100%" styleName="top-menu" selectedIndex="0" onchange="stack5.selectedIndex = this.selectedIndex">
             <button text="Image" icon="haxeui-core/styles/default/haxeui_small.png" />
             <button text="Video" icon="haxeui-core/styles/default/haxeui_small.png" />
             <button text="Paint" icon="haxeui-core/styles/default/haxeui_small.png" />
@@ -11,11 +11,13 @@
 
         </button-bar>
         
-        <vbox width="100%" height="100">
-            <stack id="stack3" width="100%" height="100%">
-                <box width="100%" height="100%"><label text="" verticalAlign="center" horizontalAlign="center" /></box>
-                <box width="100%" height="100%"><label text="" verticalAlign="center" horizontalAlign="center" /></box>
-                <box width="100%" height="100%"><label text="" verticalAlign="center" horizontalAlign="center" /></box>
+        <vbox width="100%" height="100%">
+            <stack id="stack5" width="100%" height="100%">
+                <iframe url="assets/convertthesetohaxe/ImageEditor/index.html" width="100%" height="100%" />
+                <box width="100%" height="100%"><label text="video" verticalAlign="center" horizontalAlign="center" /></box>
+                <iframe url="assets/convertthesetohaxe/Drawing/index.html" width="100%" height="100%" />
+                <box width="100%" height="100%"><label text="3d" verticalAlign="center" horizontalAlign="center" /></box>
+                <box width="100%" height="100%"><label text="sprites" verticalAlign="center" horizontalAlign="center" /></box>
             </stack>
         </vbox>
     </vbox>
